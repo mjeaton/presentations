@@ -4,6 +4,6 @@
         xmlns:tz="clr-namespace:System;assembly=mscorlib"
         Title="MainWindow" Height="350" Width="525">
 
-    <Image Source="C:\Users\Michael\Dropbox\Public\MadExpoLogo.png"
-           />
+    
+
 </Window>

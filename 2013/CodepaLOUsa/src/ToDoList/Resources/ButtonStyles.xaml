@@ -2,7 +2,7 @@
                     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Style
-        TargetType="Button" x:Key="foo">
+        TargetType="Button">
 
         <Setter
             Property="Width"
@@ -15,6 +15,8 @@
         <Setter
             Property="Margin"
             Value="5" />
+
+
     </Style>
 
     

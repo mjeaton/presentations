@@ -1,9 +1,6 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ToDoList.Models
 {
@@ -56,6 +53,5 @@ namespace ToDoList.Models
                 PropertyChanged(this, new PropertyChangedEventArgs(info));
             }
         }
-
     }
 }

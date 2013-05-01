@@ -17,7 +17,7 @@
 
         <Setter
             Property="Foreground"
-            Value="Black" />
+            Value="Red" />
 
         <Setter
             Property="FontFamily"

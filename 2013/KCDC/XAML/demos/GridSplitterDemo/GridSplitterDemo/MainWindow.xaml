@@ -1,0 +1,36 @@
+﻿<Window x:Class="GridSplitterDemo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid ShowGridLines="True">
+       
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="5"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="5"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <GridSplitter 
+			Grid.Row="1" Grid.ColumnSpan="3"
+			HorizontalAlignment="Stretch"
+			VerticalAlignment="Center"
+			Background="Blue" 
+			Height="4"
+		 />
+       
+        <GridSplitter 
+			Grid.Column="1" Grid.RowSpan="3"
+			HorizontalAlignment="Center"
+			VerticalAlignment="Stretch"
+			Background="Black" 
+			Width="4"
+		 />
+	
+    </Grid>
+</Window>

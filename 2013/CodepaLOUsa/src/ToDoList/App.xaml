@@ -10,6 +10,11 @@
                 <ResourceDictionary
                     Source="resources/ButtonStyles.xaml" />
             </ResourceDictionary.MergedDictionaries>
+
+            <Style TargetType="Grid" x:Key="HeaderGrid">
+                <Setter Property="Background" Value="Blue"/>
+            </Style>
+            
         </ResourceDictionary>
     </Application.Resources>
 </Application>

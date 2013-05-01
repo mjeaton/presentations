@@ -1,0 +1,109 @@
+<mockup version="1.0" skin="sketch" fontFace="Balsamiq Sans" measuredW="777" measuredH="498" mockupW="682" mockupH="485">
+  <controls>
+    <control controlID="0" controlTypeID="com.balsamiq.mockups::TitleWindow" x="95" y="13" w="682" h="485" measuredW="450" measuredH="400" zOrder="0" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Intro%20to%20XAML%20using%20WPF</text>
+      </controlProperties>
+    </control>
+    <control controlID="1" controlTypeID="com.balsamiq.mockups::MenuBar" x="98" y="37" w="679" h="29" measuredW="189" measuredH="29" zOrder="1" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>File%2C%20Edit%2C%20View%2C%20Help</text>
+      </controlProperties>
+    </control>
+    <control controlID="2" controlTypeID="com.balsamiq.mockups::DataGrid" x="103" y="321" w="665" h="147" measuredW="340" measuredH="195" zOrder="2" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Name%5Cr%28job%20title%29%20%5E%2C%20Age%20%5Ev%2C%20Nickname%2C%20Employee%20v%0AGiacomo%20Guilizzoni%5CrFounder%20%26%20CEO%2C%2036%2C%20Peldi%2C%20%5Bx%5D%0AMarco%20Botton%5CrTuttofare%2C%2034%2C%20%2C%20%5Bx%5D%0AMariah%20Maclachlan%5CrBetter%20Half%2C%2037%2C%20Patata%2C%20%5Bx%5D%0AValerie%20Liberty%5CrHead%20Chef%2C%20%3A%29%2C%20Val%2C%20%5Bx%5D%0AGuido%20Jack%20Guilizzoni%2C%206%2C%20The%20Guids%2C%20%5B%5D%0A%7B65L%2C%200R%2C%2035%2C%200C%7D</text>
+      </controlProperties>
+    </control>
+    <control controlID="4" controlTypeID="com.balsamiq.mockups::ButtonBar" x="648" y="289" w="-1" h="-1" measuredW="120" measuredH="27" zOrder="3" locked="false" isInGroup="-1">
+      <controlProperties>
+        <text>Save%2C%20Cancel</text>
+      </controlProperties>
+    </control>
+    <control controlID="24" controlTypeID="__group__" x="105" y="70" w="663" h="211" measuredW="663" measuredH="211" zOrder="4" locked="false" isInGroup="-1">
+      <groupChildrenDescriptors>
+        <control controlID="0" controlTypeID="com.balsamiq.mockups::Canvas" x="0" y="0" w="663" h="211" measuredW="100" measuredH="70" zOrder="0" locked="false" isInGroup="24"/>
+        <control controlID="1" controlTypeID="__group__" x="12" y="9" w="645" h="193" measuredW="645" measuredH="193" zOrder="1" locked="false" isInGroup="24">
+          <groupChildrenDescriptors>
+            <control controlID="0" controlTypeID="__group__" x="0" y="0" w="645" h="26" measuredW="645" measuredH="26" zOrder="0" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="3" w="-1" h="-1" measuredW="29" measuredH="21" zOrder="0" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text>Title%3A</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::TextInput" x="80" y="0" w="565" h="-1" measuredW="79" measuredH="26" zOrder="1" locked="false" isInGroup="0">
+                  <controlProperties>
+                    <text/>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="1" controlTypeID="__group__" x="0" y="113" w="645" h="80" measuredW="645" measuredH="80" zOrder="1" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="70" measuredH="21" zOrder="0" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <text>Description%3A</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::TextArea" x="80" y="0" w="565" h="80" measuredW="200" measuredH="140" zOrder="1" locked="false" isInGroup="1">
+                  <controlProperties>
+                    <text/>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="2" controlTypeID="__group__" x="0" y="28" w="229" h="25" measuredW="229" measuredH="25" zOrder="2" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="2" w="-1" h="-1" measuredW="58" measuredH="21" zOrder="0" locked="false" isInGroup="2">
+                  <controlProperties>
+                    <text>Due%20Date%3A</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::DateChooser" x="80" y="0" w="149" h="-1" measuredW="90" measuredH="25" zOrder="1" locked="false" isInGroup="2"/>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="3" controlTypeID="__group__" x="0" y="55" w="243" h="22" measuredW="243" measuredH="22" zOrder="3" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="1" w="-1" h="-1" measuredW="45" measuredH="21" zOrder="0" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <text>Priority%3A</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::RadioButton" x="81" y="0" w="-1" h="-1" measuredW="43" measuredH="22" zOrder="1" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <text>High</text>
+                  </controlProperties>
+                </control>
+                <control controlID="2" controlTypeID="com.balsamiq.mockups::RadioButton" x="133" y="0" w="-1" h="-1" measuredW="62" measuredH="22" zOrder="2" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <text>Medium</text>
+                  </controlProperties>
+                </control>
+                <control controlID="3" controlTypeID="com.balsamiq.mockups::RadioButton" x="203" y="0" w="-1" h="-1" measuredW="40" measuredH="22" zOrder="3" locked="false" isInGroup="3">
+                  <controlProperties>
+                    <text>Low</text>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+            <control controlID="4" controlTypeID="__group__" x="0" y="84" w="243" h="24" measuredW="243" measuredH="24" zOrder="4" locked="false" isInGroup="1">
+              <groupChildrenDescriptors>
+                <control controlID="0" controlTypeID="com.balsamiq.mockups::Label" x="0" y="0" w="-1" h="-1" measuredW="42" measuredH="21" zOrder="0" locked="false" isInGroup="4">
+                  <controlProperties>
+                    <text>Owner%3A</text>
+                  </controlProperties>
+                </control>
+                <control controlID="1" controlTypeID="com.balsamiq.mockups::ComboBox" x="81" y="0" w="162" h="-1" measuredW="30" measuredH="24" zOrder="1" locked="false" isInGroup="4">
+                  <controlProperties>
+                    <text/>
+                  </controlProperties>
+                </control>
+              </groupChildrenDescriptors>
+            </control>
+          </groupChildrenDescriptors>
+        </control>
+      </groupChildrenDescriptors>
+    </control>
+  </controls>
+</mockup>

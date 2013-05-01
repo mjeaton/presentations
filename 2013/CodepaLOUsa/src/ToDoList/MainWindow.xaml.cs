@@ -34,12 +34,16 @@ namespace ToDoList
             }
         }
 
+        public ObservableCollection<Person> People { get; set; }
         public ObservableCollection<ToDoItem> TodoList { get; set; }
         public MainWindow() 
         {
             InitializeComponent();
 
             TodoList = new ObservableCollection<ToDoItem>(getAllTasks());
+            People = new ObservableCollection<Person>(getEmployees());
+
+            blah.Content = new Person() { FirstName = "john", LastName = "doe" };
 
             this.DataContext = this;
         }
@@ -52,6 +56,15 @@ namespace ToDoList
         private void Button_Click_2(object sender, RoutedEventArgs e)
         {
             TodoList.Remove(Task);
+        }
+
+        private List<Person> getEmployees()
+        {
+            var people = new List<Person>();
+            people.Add(new Person() { FirstName = "mike", LastName = "eaton", HomeAddress = new Address() { Number = "8", State = "MI", Street = "Blah", City = "Coldwater" }});
+            people.Add(new Person() { FirstName = "james", LastName = "bender", HomeAddress = new Address() { Number = "8", State = "OH", Street = "Blah", City = "Columbus" }});
+
+            return people;
         }
 
         // this could be from a web service or database call
@@ -75,5 +88,30 @@ namespace ToDoList
                 PropertyChanged(this, new PropertyChangedEventArgs(info));
             }
         }
+
+        private void Button_Click_3(object sender, RoutedEventArgs e)
+        {
+            TodoList.Add(new ToDoItem() { Title = "Mike's New Task", Description = "Added by the button", DueDate = DateTime.Today.AddDays(1) });
+
+            Console.WriteLine("stop");
+        }
+    }
+}
+
+namespace ToDoList.Models
+{
+    public class Person
+    {
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public Address HomeAddress { get; set; }
+    }
+  
+    public class Address
+    {
+        public string Number { get; set; }
+        public string Street { get; set; }
+        public string City { get; set; }
+        public string State { get; set; }
     }
 }
