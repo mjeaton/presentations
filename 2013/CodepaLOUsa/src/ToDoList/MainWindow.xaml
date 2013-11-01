@@ -11,7 +11,7 @@
     <Window.Resources>
         <DataTemplate DataType="{x:Type local:ToDoItem}">
             <Border BorderBrush="Red" BorderThickness="2">
-                <StackPanel>
+                <StackPanel Orientation="Horizontal">
 					<TextBlock Text="{Binding Path=Title}" />
 					<TextBlock Text="{Binding Path=Description}"/>
 					<TextBlock Text="{Binding Path=DueDate}"/>

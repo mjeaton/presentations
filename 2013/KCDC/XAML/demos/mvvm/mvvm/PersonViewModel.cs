@@ -10,6 +10,7 @@ namespace mvvm
             FullName = string.Format("{0} {1}", personToView.FirstName, personToView.LastName);
         }
 
+
         private string fullName;
         public string FullName
         {

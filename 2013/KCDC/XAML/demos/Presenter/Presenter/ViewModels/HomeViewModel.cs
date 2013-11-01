@@ -30,13 +30,19 @@ namespace Presenter.ViewModels
             return returnVal;
         }
 
+        private string _introText;
         public string IntroText
         {
             get
             {
                 var md = new Markdown();
-                var result = md.Transform(readFile(_markdown));
-                return result;
+                _introText = md.Transform(readFile(_markdown));
+                return _introText;
+            }
+            set
+            {
+                _introText = value;
+                NotifyOfPropertyChange(() => IntroText);
             }
         }
 
