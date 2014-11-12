@@ -1,2 +1,2 @@
-All presentations found in this repository are Copyright (c) 2012 Michael Eaton
+All presentations found in this repository are Copyright (c) 2014 Michael Eaton
 All rights reserved.
