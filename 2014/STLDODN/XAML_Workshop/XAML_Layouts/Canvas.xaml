@@ -3,11 +3,11 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Canvas" Height="300" Width="300">
     <Canvas>
-        
+
         <TextBlock 
-			Canvas.Top="10"
-			Canvas.Left="100"
-            Text="Hello, Codemash"/>
-        
+			Canvas.Top="62"
+			Canvas.Left="25"
+            Text="Hello, St. Louis!"/>
+
     </Canvas>
 </Window>
