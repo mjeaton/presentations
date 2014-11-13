@@ -32,6 +32,6 @@
         </ControlTemplate>
     </Window.Resources>
     <Grid>
-        <Button Content="ok" Template="{DynamicResource ButtonBaseControlTemplate1}" IsEnabled="True" />
+        <Button Content="ok" IsEnabled="True" />
     </Grid>
 </Window>
