@@ -1,0 +1,28 @@
+﻿<Window x:Class="XAML_Layouts.WrapPanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="WrapPanel" Height="300" Width="300">
+
+    <WrapPanel
+        Orientation="Horizontal">
+
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        <Button Content="Ok"/>
+        
+        
+    </WrapPanel>
+ 
+</Window>

@@ -1,0 +1,121 @@
+<Button></Button>
+
+<Button>Hello, World!</Button>
+
+<Button Height="35">Hello, World!</Button>
+
+<Button Height="35" Width="100">Hello, World!</Button>
+
+<Button 
+	Height="35" 
+	Width="100">
+	
+	Hello, World!
+
+</Button>
+
+<Button 
+	Content="Hello, World!"
+	Height="35" 
+	Width="100">
+
+</Button>
+
+<Button 
+	Content="Hello, World!"
+	HorizontalAlignment="Center"
+	VerticalAlignment="Center"
+	FontSize="24"
+	>
+</Button>
+
+<Button 
+	Content="Hello, World!"
+	HorizontalAlignment="Center"
+	VerticalAlignment="Center"
+	FontSize="24"
+	/>
+
+<Button 
+	Content="Hello, World!"
+	HorizontalAlignment="Center"
+	VerticalAlignment="Center"
+	FontSize="24"
+	>
+
+	Test
+
+</Button>
+
+<Button 
+	HorizontalAlignment="Center"
+	VerticalAlignment="Center"
+	FontSize="24"
+	>
+
+	Test
+
+</Button>
+
+<Button 
+	HorizontalAlignment="Center"
+	VerticalAlignment="Center"
+	FontSize="24"
+	>
+
+	<Image Source="C:\Users\Michael\Dropbox\Public\ValidusLogo.png"/>
+
+</Button>
+
+----- Visual Tree discussion -----
+
+<Button 
+	HorizontalAlignment="Center"
+	VerticalAlignment="Center"
+	FontSize="24"
+	>
+
+	<StackPanel
+		Orientation="Vertical">
+
+		<TextBlock Text="My Button"/>
+		<Image Source="C:\Users\Michael\Dropbox\Public\ValidusLogo.png"/>
+	</StackPanel>
+
+</Button>
+
+----- All in code? -----
+
+var b = new Button();
+b.Content = "Hello, World!";
+b.HorizontalAlignment = System.Windows.HorizontalAlignment.Center;
+b.VerticalAlignment = System.Windows.VerticalAlignment.Center;
+b.FontSize = 24;
+
+this.Content = b;
+
+
+----- More code -----
+
+var b = new Button();
+
+var sp = new StackPanel();
+sp.Orientation = Orientation.Vertical;
+sp.Children.Add(new TextBlock() { Text = "My button" });
+
+var x = new Image();
+x.Height = 50;
+var image = new BitmapImage();
+image.BeginInit();
+image.UriSource = new Uri(@"C:\Users\Michael\Dropbox\Public\ValidusLogo.png", UriKind.RelativeOrAbsolute);
+image.EndInit();
+x.Source = image;
+sp.Children.Add(x);
+b.Content = sp;
+
+b.HorizontalAlignment = System.Windows.HorizontalAlignment.Center;
+b.VerticalAlignment = System.Windows.VerticalAlignment.Center;
+b.FontSize = 24;
+
+this.Content = b;
+

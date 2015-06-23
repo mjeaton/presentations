@@ -1,0 +1,21 @@
+﻿<Window x:Class="XAML_Layouts.Stackpanel"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Stackpanel" Height="300" Width="300">
+
+    <StackPanel
+        Orientation="Vertical">
+
+        <TextBlock Text="Text block"/>
+        <ListBox 
+            Height="100"
+            >
+            
+            <ListBoxItem Content="Item 1"/>
+            <ListBoxItem Content="Item 2"/>
+            
+        </ListBox>
+
+    </StackPanel>
+    
+</Window>
