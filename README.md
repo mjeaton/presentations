@@ -1,5 +1,4 @@
 # Presentations
-=======
 
 ## Current Abstracts:
 
