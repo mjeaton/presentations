@@ -126,3 +126,13 @@ a skill every developer should have but research and statistics show it's a
 skill few actually possess. In this session, we'll talk about why we have so
 much trouble with this key skill and then discuss some strategies for improving
 our software estimation chops.
+
+### Introduction to Castle ActiveRecord, or Stop Writing CRUD!
+
+Nobody likes writing CRUD. After writing an obscene number of methods and
+stored procedures you are left with a mountain of repetitive,error-prone,data
+access code. Wouldn''t it be great if you could spend that time writing actual
+business logic instead of being a plumber and writing the same old data access
+code? In this talk Michael Eaton will introduce you to an open-source framework
+called Castle ActiveRecord that will help you write less data access code and
+be more productive.
